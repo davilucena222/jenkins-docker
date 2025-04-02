@@ -39,7 +39,7 @@ pipeline {
             }
         }
 
-        stage('Push Docker Image App')
+        stage('Push Docker Image')
         {
             steps
             {
