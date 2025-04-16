@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'agent'
+    }
 
     environment {
         IMAGE_NAME = 'davilucena/jenkins-flask-app'
