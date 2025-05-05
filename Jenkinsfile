@@ -11,7 +11,7 @@ pipeline {
     
     stages {
 
-        stage('Setup 2 dfsdfdsf') {
+        stage('Setup 2') {
             steps {
                 sh "pip3 install -r requirements.txt --break-system-packages"
             }
