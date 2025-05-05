@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agent'
+        label ''
     }
 
     environment {
@@ -11,7 +11,7 @@ pipeline {
     
     stages {
 
-        stage('Setup 2') {
+        stage('Setup 2 dfsdfdsf') {
             steps {
                 sh "pip3 install -r requirements.txt --break-system-packages"
             }
